@@ -12,6 +12,8 @@ An agent fails in ways that look like success. It writes a file and tells you it
 
 The rules below are what I use to make that failure mode expensive for the agent and cheap for me.
 
+They came out of maintaining a library of 274 skill documents — procedures the agent loads on demand — across a year of production use on one machine.
+
 | # | Note | The rule in one line |
 |---|------|----------------------|
 | 01 | [Trust the output](01-evidence.md) | "Done" is a claim. A read-back is evidence. |
